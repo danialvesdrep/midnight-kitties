@@ -1,0 +1,14 @@
+pragma language_version >= 0.16.0;
+
+import CompactStandardLibrary;
+
+export ledger attendanceCount: Counter;
+
+export circuit markPresent(): [] {
+  attendanceCount.increment(1);
+  return [];
+}
+
+export circuit getTotalPresent(): Uint<64> {
+  return attendanceCount;
+}
