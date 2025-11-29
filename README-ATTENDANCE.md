@@ -1,11 +1,11 @@
 # Attendance Registry DApp
 
 ## Descrição
-DApp simples de registro de presença construído com Compact para a blockchain Midnight.
+DApp simples de registo de presença construído com Compact para a blockchain Midnight.
 
 ## Funcionalidades
-- **markPresent()**: Registra presença de um participante
-- **getTotalPresent()**: Retorna o total de pessoas presentes
+- **markPresent()**: Regista a presença de um participante.
+- **getTotalPresent()**: Retorna o total de pessoas presentes.
 
 ## Contrato
 - Localização: `/packages/contracts/attendance/src/attendance.compact`
@@ -17,7 +17,3 @@ DApp simples de registro de presença construído com Compact para a blockchain 
 cd packages/contracts/attendance
 export COMPACT_PATH=".:./src:./managed:../node_modules"
 compact compile src/attendance.compact managed/attendance
-```
-
-## Screenshots
-[Adiciona prints da compilação]
