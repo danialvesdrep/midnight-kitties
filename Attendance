@@ -1,0 +1,4 @@
+cd ~/Documents/midnight-kitties
+git add packages/contracts/attendance/
+git commit -m "Add Attendance Registry DApp"
+git push
